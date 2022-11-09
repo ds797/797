@@ -1,6 +1,4 @@
 * {
-  font-family: 'Space Mono', Avenir, Helvetica, Arial, sans-serif;
-
 	--neutral-high: hsl(240, 30%, 5%);
 	--neutral: hsl(240, 30%, 10%);
 	--neutral-low: hsl(240, 30%, 15%);
@@ -8,6 +6,11 @@
 	--contrast-high: hsl(240, 30%, 85%);
 	--contrast: hsl(240, 20%, 70%);
 	--contrast-low: hsl(240, 20%, 35%);
+
+	--transition: 200ms cubic-bezier(0.000, 0.475, 0.300, 0.990);
+
+	font-family: 'Space Mono', Avenir, Helvetica, Arial, sans-serif;
+	transition: all var(--transition);
 }
 
 html, body {
@@ -25,7 +28,8 @@ body {
 	background: var(--neutral);
 }
 
-h1, h2, h3, h4, h5, h6 p {
+h1, h2, h3, h4, h5, h6, p {
+	padding: 0;
 	margin: 0;
 	color: var(--contrast);
 	text-align: center;
