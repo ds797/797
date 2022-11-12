@@ -9,11 +9,22 @@
 
 <main>
 	<Navigation bind:page />
-	<About />
-	<Skills />
-	<Projects />
+	{ #if page === 0 }
+		<About />
+	{ :else if page === 1 }
+		<Skills />
+	{ :else if page === 2 }
+		<Projects />
+	{ :else }
+		<h2>404</h2>
+	{ /if }
 </main>
 
 <style>
-
+	main {
+		display: flex;
+		flex-flow: column;
+		justify-content: center;
+		align-items: center;
+	}
 </style>

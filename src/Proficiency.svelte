@@ -1,7 +1,5 @@
 <script>
 	export let proficiency;
-
-	console.log(proficiency)
 </script>
 
 <main>
