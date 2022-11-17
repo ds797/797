@@ -5,6 +5,10 @@
 		name: 'Tasks',
 		link: 'https://tasks-dnl.pages.dev',
 		icon: ''
+	}, {
+		name: 'dst',
+		link: 'https://dstutor.pages.dev',
+		icon: ''
 	}];
 </script>
 
