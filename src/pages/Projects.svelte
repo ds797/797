@@ -2,9 +2,9 @@
 	import Project from './Project.svelte';
 
 	let projects = [{
-		name: 'Tasks',
-		description: 'Tasks has been in development for two years, and I\'m happy to say it\'s now available to everyone in America!',
-		link: 'https://tasks-dnl.pages.dev/tasks',
+		name: 'Advance',
+		description: 'Advance has been in development for two years, and I\'m happy to say it\'s now available to anyone who speaks English!',
+		link: 'https://ds-advance.pages.dev',
 		icon: ''
 	}, {
 		name: 'dst',
