@@ -3,12 +3,12 @@
 
 	let projects = [{
 		name: 'Tasks',
-		description: 'Tasks has been in development for two years, and I\'m happy to say it\'s now available for anyone in America!',
+		description: 'Tasks has been in development for two years, and I\'m happy to say it\'s now available to everyone in America!',
 		link: 'https://tasks-dnl.pages.dev/tasks',
 		icon: ''
 	}, {
 		name: 'dst',
-		description: 'dst is my math tutoring "company". The website just contains information relating to the service. It\'s also got some fun cross-page animations, though!',
+		description: 'dst is my math tutoring "agency". The website just contains information relating to the service.',
 		link: 'https://dstutor.pages.dev',
 		icon: ''
 	}, {
