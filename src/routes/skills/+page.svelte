@@ -1,15 +1,15 @@
 <script>
-	import web from './assets/web.svg';
-	import js from './assets/js.svg';
-	import svelte from './assets/svelte.svg';
-	import html from './assets/html.svg';
-	import css from './assets/css.svg';
-	import c from './assets/c.svg';
-	import cpp from './assets/c++.svg';
-	import nasm from './assets/nasm.svg';
-	import python from './assets/python.svg';
-	import Language from './Language.svelte';
-	import Github from './Github.svelte';
+	import web from '$lib/assets/web.svg';
+	import js from '$lib/assets/js.svg';
+	import react from '$lib/assets/react.svg';
+	import svelte from '$lib/assets/svelte.svg';
+	import html from '$lib/assets/html.svg';
+	import css from '$lib/assets/css.svg';
+	import c from '$lib/assets/c.svg';
+	import cpp from '$lib/assets/c++.svg';
+	import nasm from '$lib/assets/nasm.svg';
+	import python from '$lib/assets/python.svg';
+	import Language from '$lib/components/Language.svelte';
 
 	let languages = [{
 		name: 'Web',
@@ -28,9 +28,13 @@
 			icon: js,
 			proficiency: 5
 		}, {
+			name: 'React',
+			icon: react,
+			proficiency: 5
+		}, {
 			name: 'Svelte',
 			icon: svelte,
-			proficiency: 5
+			proficiency: 4
 		}]
 	}, {
 		name: 'C++',
@@ -52,8 +56,7 @@
 </script>
 
 <main>
-	<h1>Hello! I'm ds797.</h1>
-	<Github />
+	<h3>Some categories can be expanded.</h3>
 	{ #each languages as language (language) }
 		<Language {language} />
 	{ /each }
@@ -61,13 +64,13 @@
 
 <style>
 	main {
-		padding: 2rem 8rem;
+		width: min(35rem, 90vw);
 		display: flex;
 		flex-flow: column;
 		justify-content: center;
+		align-items: center;
+		gap: 2rem;
 	}
 
-	h1 {
-		font-size: 4rem;
-	}
+
 </style>

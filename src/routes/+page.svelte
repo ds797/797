@@ -1,3 +1,8 @@
+<svelte:head>
+	<title>About</title>
+	<meta name="description" content="About ds797" />
+</svelte:head>
+
 <main>
 	<h2>I'm ds797, a student, programmer, and designer.</h2>
 	<p>I love deep-diving into subjects I don't know much about, then coming out the other side brimming with knowledge. The universe, nature, and technology are some of my favorite subjects!</p>

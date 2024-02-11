@@ -1,7 +1,7 @@
 <script>
 	import { cubicOut } from 'svelte/easing';
-	import Proficiency from './Proficiency.svelte';
-	import expand from './assets/expand.svg';
+	import Proficiency from '$lib/components/Proficiency.svelte';
+	import expand from '$lib/assets/expand.svg';
 
 	export let language;
 

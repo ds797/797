@@ -1,5 +1,5 @@
 <script>
-	import Project from './Project.svelte';
+	import Project from '$lib/components/Project.svelte';
 
 	let projects = [{
 		name: 'Advance',
@@ -24,3 +24,11 @@
 		<Project {project} />
 	{ /each }
 </main>
+
+<style>
+	main {
+		display: flex;
+		flex-flow: column;
+		align-items: center;
+	}
+</style>
