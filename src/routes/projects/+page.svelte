@@ -1,7 +1,13 @@
 <script>
 	import Project from '$lib/components/Project.svelte';
+	import Github from '$lib/components/Github.svelte'
 
 	let projects = [{
+		name: 'Budgeteer',
+		description: 'Budgeteer is next-gen budgeting that\'s easy to use yet powerful.',
+		link: 'https://budgeteer.cc',
+		icon: ''
+	}, {
 		name: 'Advance',
 		description: 'Advance has been in development for two years, and I\'m happy to say it\'s now available to anyone who speaks English!',
 		link: 'https://ds-advance.pages.dev',
