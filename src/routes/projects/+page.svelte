@@ -4,7 +4,7 @@
 
 	let projects = [{
 		name: 'Budgeteer',
-		description: 'Budgeteer is next-gen budgeting that\'s easy to use yet powerful.',
+		description: 'Budgeteer is next-gen budgeting that\'s easy to use yet powerful. The entire interface was designed by yours truly, including the logo and all interactive graphs!',
 		link: 'https://budgeteer.cc',
 		icon: ''
 	}, {
