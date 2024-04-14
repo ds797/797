@@ -10,7 +10,7 @@
 	<Navbar />
 	<div class="page">
 		{ #key data.pathname }
-			<div class="content" in:fade={{ duration: 300, delay: 400 }} out:fade={{ duration: 300 }}>
+			<div class="content" in:fade={{ duration: 200, delay: 300 }} out:fade={{ duration: 300 }}>
 				<slot />
 			</div>
 		{/key}

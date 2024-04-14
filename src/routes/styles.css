@@ -1,5 +1,9 @@
 @import '@fontsource/space-mono';
 
+* {
+	transition: all 0.15s ease-out;
+}
+
 :root {
 	--neutral-high: hsl(240, 30%, 5%);
 	--neutral: hsl(240, 30%, 10%);
