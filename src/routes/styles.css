@@ -30,7 +30,7 @@ p {
 }
 
 a {
-	color: var(--color-theme-1);
+	color: var(--contrast-high);
 	text-decoration: none;
 }
 
@@ -118,6 +118,6 @@ a {
 button {
 	padding: 0.5rem;
 	background: none;
-	border: 0.125rem solid var(--contrast);
+	border: none;
 	border-radius: 0.5rem;
 }
