@@ -18,6 +18,11 @@
 		link: 'https://dstutor.pages.dev',
 		icon: ''
 	}, {
+		name: 'ghost',
+		description: 'ghost is a Rust operating system based on Philipp Oppermann\'s "Writing an OS in Rust".',
+		link: 'https://github.com/ds797/ghost',
+		icon: '',
+	}, {
 		name: 'ds-os',
 		description: 'ds-os is under construction. Progress is going great, but the project won\'t be publicly available until it reaches a more stable state.',
 		link: '',
@@ -36,5 +41,6 @@
 		display: flex;
 		flex-flow: column;
 		align-items: center;
+		gap: 0.5rem;
 	}
 </style>
