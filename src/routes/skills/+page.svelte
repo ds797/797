@@ -287,9 +287,13 @@
 	.column {
 		display: flex;
 		flex-flow: column;
-		align-items: flex-start;
+		align-items: stretch;
 		gap: 0.5rem;
 		font-size: 1.25rem;
+	}
+
+	.column h3 {
+		text-align: center;
 	}
 
 	.row {
