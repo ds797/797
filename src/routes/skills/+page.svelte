@@ -35,6 +35,7 @@
 				<p>Svelte</p>
 			</div>
 		</div>
+		<div class="bar" />
 		<div class="column">
 			<h3>Languages</h3>
 			<div class="row">
@@ -211,6 +212,7 @@
 				<p>NASM</p>
 			</div>
 		</div>
+		<div class="bar" />
 		<div class="column">
 			<h3>Other</h3>
 			<div class="row">
@@ -316,5 +318,12 @@
 
 	.row svg.override {
 		stroke: none;
+	}
+
+	.bar {
+		width: 0.125rem;
+		flex: 1;
+		background: var(--contrast-low);
+		border-radius: 0.0625rem;
 	}
 </style>
